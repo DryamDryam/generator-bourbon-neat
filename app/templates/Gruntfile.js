@@ -141,10 +141,8 @@ module.exports = function (grunt) {
         // Mocha testing framework configuration options
         mocha: {
             all: {
-                options: {
-                    run: true,
-                    urls: ['http://<%%= connect.options.hostname %>:<%%= connect.test.options.port %>/index.html']
-                }
+                run: true,
+                urls: ['http://<%%= connect.options.hostname %>:<%%= connect.test.options.port %>/index.html']
             }
         },
 
